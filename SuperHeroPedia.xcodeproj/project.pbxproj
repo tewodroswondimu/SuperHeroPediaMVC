@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		182B0F8B1A76C549008F26A9 /* SuperHero.m in Sources */ = {isa = PBXBuildFile; fileRef = 182B0F8A1A76C549008F26A9 /* SuperHero.m */; };
 		2394A6B319BB88FB00A6B6BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2394A6B219BB88FB00A6B6BE /* main.m */; };
 		2394A6B619BB88FB00A6B6BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2394A6B519BB88FB00A6B6BE /* AppDelegate.m */; };
 		2394A6B919BB88FB00A6B6BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2394A6B819BB88FB00A6B6BE /* ViewController.m */; };
@@ -26,6 +27,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		182B0F891A76C549008F26A9 /* SuperHero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperHero.h; sourceTree = "<group>"; };
+		182B0F8A1A76C549008F26A9 /* SuperHero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperHero.m; sourceTree = "<group>"; };
 		2394A6AD19BB88FB00A6B6BE /* SuperHeroPedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperHeroPedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2394A6B119BB88FB00A6B6BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2394A6B219BB88FB00A6B6BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -81,6 +84,8 @@
 			children = (
 				2394A6B419BB88FB00A6B6BE /* AppDelegate.h */,
 				2394A6B519BB88FB00A6B6BE /* AppDelegate.m */,
+				182B0F891A76C549008F26A9 /* SuperHero.h */,
+				182B0F8A1A76C549008F26A9 /* SuperHero.m */,
 				2394A6B719BB88FB00A6B6BE /* ViewController.h */,
 				2394A6B819BB88FB00A6B6BE /* ViewController.m */,
 				2394A6BA19BB88FB00A6B6BE /* Main.storyboard */,
@@ -218,6 +223,7 @@
 				2394A6B919BB88FB00A6B6BE /* ViewController.m in Sources */,
 				2394A6B619BB88FB00A6B6BE /* AppDelegate.m in Sources */,
 				2394A6B319BB88FB00A6B6BE /* main.m in Sources */,
+				182B0F8B1A76C549008F26A9 /* SuperHero.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +408,7 @@
 				2394A6CF19BB88FB00A6B6BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2394A6D019BB88FB00A6B6BE /* Build configuration list for PBXNativeTarget "SuperHeroPediaTests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +417,7 @@
 				2394A6D219BB88FB00A6B6BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
